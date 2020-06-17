@@ -66,11 +66,11 @@ Global Styles
   box-sizing: border-box;
 }
 
-@media screen and (max-width:400px){
+/* @media screen and (max-width:400px){
   *{
     overflow-x: hidden;
   }
-}
+} */
 
 body {
   font-family: var(--ff-secondary);
