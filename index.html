@@ -16,30 +16,51 @@
   </head>
   <body>
 
-    <!-- navbar -->
+<!-- navbar -->
 
-    <nav class="nav" id="nav">
+<nav class="nav" id="nav">
 
-      <div class="nav-center">
+  <div class="nav-center">
 
-        <div class="nav-header">
-          <a href="index.html"><img src="./images/nav-logo.PNG" class="nav-logo"></a>
-          <button class="nav-btn" id="nav-btn">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
+    <div class="nav-header">
 
-        <ul class="nav-links">
-            <li><a href="index.html" class="nav-link">home</a></li>
-            <li><a href="about.html" class="nav-link">about</a></li>
-            <li><a href="projects.html" class="nav-link">projects</a></li>
-            <li><a href="contact.html" class="nav-link">contact</a></li>
-          </ul>
+      <!-- MY LOGO -->
 
-      </div>
-    </nav>
+      <!-- <a href="index.html">
+                  <div class="my-logo" style="display: grid; grid-template-columns: auto auto; gap: 0 8px; place-items: center; background: #B8D4D8; max-width: 12rem;
+                border-radius: 8px;
+                border: 2px solid #102a42;padding: 0.4rem 0.8rem;">
+                
+                  <img src="./images/favicon.ico" class="my-logo-icon"
+                    style="width: 2rem; height: 2rem; border-radius: 50%;object-fit: cover; justify-self: end;">
+                
+                  <h3 class="my-logo-text" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; justify-self: start; align-self: center;
+                  margin-bottom: 0; color:#102a42;font-size: 1.5rem; ">dee<span id="my-logo-special-text"
+                      style="color: #16697a; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">kayy</span></h3>
+                
+                  </div>
+                </a> -->
 
-    <!-- end of navbar -->
+      <!-- DOWNLOADED LOGO -->
+
+      <a href="index.html"><img src="./images/nav-logo.PNG" class="nav-logo"></a>
+
+      <button class="nav-btn" id="nav-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">home</a></li>
+      <li><a href="about.html" class="nav-link">about</a></li>
+      <li><a href="projects.html" class="nav-link">projects</a></li>
+      <li><a href="contact.html" class="nav-link">contact</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+<!-- end of navbar -->
 
 
 
@@ -86,6 +107,12 @@
 
     <div class="section-center hero-center">
 
+      <article class="hero-img-phone">
+      
+        <img src="./images/hero-image.jpg" class="hero-image-phone">
+      
+      </article>
+
       <article class="hero-info">
         
         <div class="underline"></div>
@@ -121,14 +148,20 @@
     <!-- about -->
 
     <section class="about section">
-      <div class="section-center about-center">
 
+      <div class="section-title about-title-phone">
+        <h2>about me</h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="section-center about-center">
+        
         <article class="about-img">
           <img src="./images/about-image.jpg" class="hero-image about-image">
         </article>
-
+        
         <article class="about-info">
-          <div class="section-title about-title">
+          <div class="section-title about-title-pc">
           <h2>about me</h2>
           <div class="underline"></div>
           </div>
@@ -137,7 +170,7 @@
           Data
           Sceince as my specilization.
           </p>
-          <p>I excel at HTML and CSS and have created many projects using the same. I am currently learning Javascript. I also do freelance content writing time to time and also have a blog for the same.</p>
+          <p>I excel at HTML and CSS and have created many projects using the same. I am currently learning Javascript. I also do freelance content writing time to time and have a blog for the same.</p>
           <a href="about.html" class="btn about-btn">know more</a>
         </article>
 
