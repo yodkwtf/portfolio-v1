@@ -15,7 +15,7 @@ Variables
   /* dark shades of primary color*/
   --clr-primary-1: 	#16697A;
   /* primary/main color */
-  --clr-primary-5: 	#489FB5;
+  --clr-primary-5: 	#489fb5;
   /* lighter shades of primary color */
   --clr-primary-7:  #65B0C1;
   --clr-primary-9: #82C0CC;
@@ -474,7 +474,19 @@ About
 
 .about-img{
   justify-self: center;
+  position: relative;
 }
+
+.about-img::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+  }
 
 .about-center{
   display: grid;
