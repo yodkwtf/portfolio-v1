@@ -220,7 +220,7 @@ Navbar
 .nav-logo{
   height: 3.5rem;
   border-radius: var(--radius);
-  border: 3px solid rgba(16, 42, 66, 0.7);
+  /* border: 2px solid rgba(16, 42, 66, 0.7); */
 }
 
 .nav-btn{
@@ -353,6 +353,19 @@ Sidebar
 }
 
 
+
+/*
+=============== 
+Divider
+===============
+*/
+
+
+/* .divider{
+  height: 0.2rem;
+  margin: 0 auto;
+  background: linear-gradient(to left,var(--clr-primary-10), var(--clr-primary-7),var(--clr-primary-9),var(--clr-primary-7),var(--clr-primary-10));
+} */
 
 /*
 =============== 
@@ -630,6 +643,10 @@ Projects
   color: var(--clr-light);
   transition: var(--transition);
   opacity: 0;
+}
+
+.project-text h4{
+  text-transform: uppercase;
 }
 
 .project-text p{
@@ -1200,8 +1217,8 @@ Products Page
 
 .projects-page-center{
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
-  gap: 5rem 3rem;
+  grid-template-columns: repeat(auto-fill,minmax(380px,1fr));
+  gap: 5rem 6rem;
 }
 
 
