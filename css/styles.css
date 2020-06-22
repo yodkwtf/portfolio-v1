@@ -389,9 +389,7 @@ Hero
   padding: 5rem 0;
 }
 
-.hero-info{
-  /* align-self: start; */
-}
+
 .hero-info h4{
   color: var(--clr-grey-5);
 }
