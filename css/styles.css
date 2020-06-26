@@ -1178,7 +1178,7 @@ Products Page
   transition: var(--transition);
 }
 .project-icon:hover{
-  background: var(--clr-primary-7);
+  background: var(--clr-dark);
 }
 
 .project-details{
@@ -1186,11 +1186,18 @@ Products Page
 }
 .project-details h4{
   text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+}
+.project-details p{
+  text-align: center;
+  /* margin-top: 1.5rem; */
 }
 .project-footer{
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
+  margin-bottom: -2.5rem;
 }
 .project-footer-date{
   color: var(--clr-primary-5);
@@ -1199,22 +1206,21 @@ Products Page
 .project-footer span{
   color: var(--clr-primary-5);
   font-size: 1.4rem;
+  transition: var(--transition);
+  color: var(--clr-primary-5);
 }
 .project-footer a{
   justify-self: end;
-  text-transform: capitalize;
-  transition: var(--transition);
-  color: var(--clr-primary-5);
   align-self: baseline;
 }
-.project-footer a:hover{
-  color: var(--clr-primary-1);
+.project-footer span:hover{
+  color: var(--clr-dark);
 }
 
 .projects-page-center{
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(370px,1fr));
-  gap: 5rem 6rem;
+  grid-template-columns: repeat(auto-fill,minmax(337px,1fr));
+  gap: 5rem 4rem;
 }
 
 
