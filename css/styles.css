@@ -1189,10 +1189,7 @@ Products Page
   text-align: center;
   margin-top: 1rem;
 }
-.project-details p{
-  text-align: center;
-  /* margin-top: 1.5rem; */
-}
+
 .project-footer{
   display: grid;
   grid-template-columns: auto 1fr;
