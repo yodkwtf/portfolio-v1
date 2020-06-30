@@ -1138,12 +1138,15 @@ About Page
 
 /*
 =============== 
-Products Page
+Projects Page
 ===============
 */
 
 .projects-page{
   background: rgba(230, 230, 230, 0.9);
+}
+.projects-page-title h4{
+  text-transform: none;
 }
 .single-project{
   background: var(--clr-grey-10);
