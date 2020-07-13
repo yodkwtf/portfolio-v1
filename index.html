@@ -4,117 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deekayy || Portfolio</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
-    />
     <!-- css -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="./css/dark-theme.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./fontawesome-icons/css/all.min.css" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto&display=swap" rel="stylesheet">
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./owl/owl.theme.default.css">
+    <link rel="stylesheet" href="./owl/owl.carousel.min.css">
   </head>
   <body>
+    
+<!-- header -->
 
-<!-- navbar -->
+<header class="hero" id="header">
 
-<nav class="nav" id="nav">
+  <!-- navbar -->
 
-  <div class="nav-center">
+  <nav class="nav" id="nav">
 
     <div class="nav-header">
-
-      <!-- MY LOGO -->
-
-      <!-- 
-        <a href="index.html">
-                  <div class="my-logo" style="display: grid; grid-template-columns: auto auto; gap: 0 8px; place-items: center; background: #B8D4D8; max-width: 12rem;
-                border-radius: 8px;
-                border: 2px solid #102a42;padding: 0.4rem 0.8rem;">
-                
-                  <img src="./images/favicon.ico" class="my-logo-icon"
-                    style="width: 2rem; height: 2rem; border-radius: 50%;object-fit: cover; justify-self: end;">
-                
-                  <h3 class="my-logo-text" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; justify-self: start; align-self: center;
-                  margin-bottom: 0; color:#102a42;font-size: 1.5rem; ">dee<span id="my-logo-special-text"
-                      style="color: #16697a; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">kayy</span></h3>
-                
-                  </div>
-                </a> 
-              -->
-
-      <!-- DOWNLOADED LOGO -->
-
-      <a href="index.html"><img src="./images/nav-logo.PNG" class="nav-logo"></a>
-
+      <!-- nav logo -->
+      <div class="nav-top">
+        <img src="./images/logo.png" class="nav-logo">
+        <a id="theme-toggle" class="theme-btn btn"><i class="fas fa-adjust"></i></a>
+      </div>
+      <!-- nav btn -->
       <button class="nav-btn" id="nav-btn">
-        <i class="fas fa-bars"></i>
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
       </button>
     </div>
 
     <ul class="nav-links">
-      <li><a href="index.html" class="nav-link">home</a></li>
-      <li><a href="about.html" class="nav-link">about</a></li>
-      <li><a href="projects.html" class="nav-link">projects</a></li>
-      <li><a href="contact.html" class="nav-link">contact</a></li>
+      <li><a href="#header" class="nav-link">home</a></li>
+      <li><a href="#about" class="nav-link">about</a></li>
+      <li><a href="#projects" class="nav-link">works</a></li>
+      <li><a href="#blog" class="nav-link">blog</a></li>
+      <li><a href="#contact" class="nav-link">contact</a></li>
     </ul>
 
-  </div>
-</nav>
+  </nav>
 
 <!-- end of navbar -->
 
 
 
-    <!-- sidebar -->
-
-    <aside class="sidebar" id="sidebar">
-
-      <div>
-
-        <button class="close-btn" id="close-btn">
-          <i class="fas fa-times"></i>
-        </button>
-
-        <ul class="sidebar-links">
-          <li><a href="index.html" class="sidebar-link">home</a></li>
-          <li><a href="about.html" class="sidebar-link">about</a></li>
-          <li><a href="projects.html" class="sidebar-link">projects</a></li>
-          <li><a href="contact.html" class="sidebar-link">contact</a></li>
-        </ul>
-
-        <ul class="sidebar-icons">
-          <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="sidebar-icon" target="_blank"><i
-                class="fab fa-linkedin"></i></a></li>
-          <li><a href="https://twitter.com/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.instagram.com/yodkwtf" class="sidebar-icon" target="_blank"><i
-                class="fab fa-instagram"></i></a></li>
-          <!-- <li><a href="https://www.reddit.com/user/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-reddit"></i></a>
-          </li> -->
-          <li><a href="https://github.com/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-github"></i></a></li>
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <!-- end of sidebar -->
-
-
-
-    <!-- divider -->
-
-    <!-- <div class="divider"></div> -->
-
-    <!-- end of divider -->
-
-
-
     <!-- header -->
 
-    <header class="hero">
 
-    <div class="section-center hero-center">
+    <div class="section-center hero-banner">
 
       <article class="hero-img-phone">
       
@@ -126,15 +69,15 @@
         
         <div class="underline hero-underline"></div>
         <h1>i'm durgesh</h1>
-        <h4>freelance web designer and content writer</h4>
-        <a href="contact.html" class="btn hero-btn">hire me</a>
+        <h4> web designer <i class="fas fa-angle-double-right"></i>  content writer</h4>
+        <a href="#contact" class="btn hero-btn light-btn">hire me</a>
+        <a href="./CBSE - Senior School Certificate Examination (Class XII) Results 2019.pdf" class="btn hero-btn dark-btn" download="Class XII Certificate.pdf">download CV</a>
 
-        <ul class="sidebar-icons hero-icons">
-          <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="sidebar-icon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="https://twitter.com/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.instagram.com/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-instagram"></i></a></li>
-          <!-- <li><a href="https://www.reddit.com/user/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-reddit"></i></a></li> -->
-          <li><a href="https://github.com/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-github"></i></a></li>
+        <ul class="hero-icons">
+          <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="hero-icon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/yodkwtf" class="hero-icon" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/yodkwtf" class="hero-icon" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://github.com/yodkwtf" class="hero-icon" target="_blank"><i class="fab fa-github"></i></a></li>
         </ul>
 
       </article>
@@ -156,7 +99,7 @@
 
     <!-- about -->
 
-    <section class="about section">
+    <section class="about section" id="about">
 
       <div class="section-title about-title-phone">
         <h2>about me</h2>
@@ -166,7 +109,7 @@
       <div class="section-center about-center">
         
         <article class="about-img">
-          <img src="./images/about-image.jpg" class="hero-image about-image">
+          <img src="./images/hero-image.jpg" class="about-image">
         </article>
         
         <article class="about-info">
@@ -174,12 +117,7 @@
           <h2>about me</h2>
           <div class="underline"></div>
           </div>
-          <p>My name is Durgesh, aka Deekayy and I am a web designer. I live and work in
-          Guragon. I am a second year B.Tech student at The Northcap University, Guragon. I am pursuing Computer Science and have
-          Data
-          Sceince as my specilization.
-          </p>
-          <p>I excel at HTML and CSS and have created many projects using the same. I am currently learning Javascript. I also do freelance content writing time to time and have a blog for the same.</p>
+          <p>I am an 18 year student who loves to work with HTML and CSS. I am currently leanring Javascript. I also love to read and write a lot. I am currently pursuing B-Tech in Computer Science from the Northcap University, Gurgaon.</p>
           <a href="about.html" class="btn about-btn">know more</a>
         </article>
 
@@ -202,29 +140,33 @@
 
       <div class="section-center services-center">
 
-          <article class="services-card">
-            <span class="services-card-icon"><i class="fas fa-code"></i></span>
-            <h4>web development</h4>
-            <div class="underline"></div>
-            <p>I design the basic functionality of websites using Javascript and make it more user friendly.</p>
-          </article>
 
-          <article class="services-card">
-            <span class="services-card-icon"><i class="fab fa-sketch"></i></span>
-            <h4>web design</h4>
-            <div class="underline"></div>
-            <p>I have extremely good web designing skills and can create the best of websites using just HTML/CSS if possible. </p>
-          </article>
+				<!-- single service -->
+				<article class="service">
+					<span class="service-icon"><i class="fas fa-code"></i></span>
+					<h3 class="service-title">web designer</h3>
+					<p class="service-text">I am designing websites via HTML/CSS and Javascript for quite some now. I can design even the most complex designs easily.</p>
+				</article>
+				<!-- end of single service -->
+				
+				<!-- single service -->
+				<article class="service">
+					<span class="service-icon"><i class="fas fa-edit"></i></span>
+					<h3 class="service-title">content writer</h3>
+					<p class="service-text">I do freelance content writing time to time. I like writing about general issues faced by our modern society.</p>
+				</article>
+				<!-- end of single service -->
 
-          <article class="services-card">
-            <span class="services-card-icon"><i class="fas fa-pen"></i></span>
-            <h4>content writing</h4>
-            <div class="underline"></div>
-            <p>I write articles on current topics and the general issues faced by our society in day-to-day life.</p>
-          </article>
-
-        </div>
-      </div>
+				<!-- single service -->
+				<article class="service">
+					<span class="service-icon"><i class="fas fa-laptop"></i></span>
+					<h3 class="service-title">web developer</h3>
+					<p class="service-text">I am learning new languages one by one. I aspire to learn most of the front as well as back end languages by the time I graduate.</p>
+				</article>
+				<!-- end of single service -->
+	
+	
+			</div>
     </section>
 
     <!-- end of services -->
@@ -234,51 +176,51 @@
 
     <!-- projects -->
 
-    <section class="section projects">
+    <section class="section projects" id="projects">
 
       <div class="section-title projects-title">
         <h2>latest works</h2>
         <div class="underline"></div>
-        <p>I have been working with HTML and CSS for some time now. I have created a bunch of projects using the same. Here are a few of my latest projects. </p>
+        <p class="title-brief">I have been working with HTML and CSS for some time now. I have created a bunch of projects using the same. Here are a few of my latest projects. </p>
       </div>
 
       <div class="section-center projects-center">
 
-        <a href="https://teapotcafe.netlify.app/" class="project1" target="_blank">
-          <article class="projects-img">
-            <img src="./images/teapot-cafe.PNG" class="projects-image">
-            <div class="project-text">
-              <h4>tea station</h4>
-              <p>teapot cafe</p>
-            </div>
-          </article>
-        </a>
+				<a href="https://titansdigital.netlify.app/" class="project2" target="_blank">
+					<article class="projects-img">
+						<img src="./images/projects/titans-digital.PNG" class="projects-image">
+						<div class="project-text">
+							<h4>web agency</h4>
+							<p>Titans Digital</p>
+						</div>
+					</article>
+				</a>
 
-        <a href="https://titansdigital.netlify.app/" class="project2" target="_blank">
+        <a href="https://saintsofshows.netlify.app/" class="project1" target="_blank">
           <article class="projects-img">
-            <img src="./images/titans-digital.PNG" class="projects-image">
+            <img src="./images/projects/saints-of-shows.PNG" class="projects-image">
             <div class="project-text">
-              <h4>web agency</h4>
-              <p>Titans Digital</p>
+              <h4>Streaming Platform</h4>
+              <p>Saints of Shows</p>
             </div>
           </article>
         </a>
         
-        <a href="https://backroadstravels.netlify.app/" class="project3" target="_blank">
+        <a href="https://musify-x.netlify.app/" class="project3" target="_blank">
           <article class="projects-img">
-            <img src="./images/backroads-travels.PNG" class="projects-image">
+            <img src="./images/projects/musify-x.PNG" class="projects-image">
             <div class="project-text">
-              <h4>tour company</h4>
-              <p>Backroads Travels</p>
+              <h4>music app</h4>
+              <p>Musify-X</p>
             </div>
           </article>
         </a>
 
         <a href="https://youngatart.netlify.app/" class="project4" target="_blank">
           <article class="projects-img">
-            <img src="./images/young-at-art.PNG" class="projects-image">
+            <img src="./images/projects/young-at-art.PNG" class="projects-image">
             <div class="project-text">
-              <h4>art school </h4>
+              <h4>art academy </h4>
               <p>Young at Art</p>
             </div>
           </article>
@@ -286,8 +228,8 @@
 
       </div>
 
-      <div class="all-projects-link">
-      <a href="projects.html" class="btn">all projects</a>
+      <div class="new-page-link">
+      <a href="projects.html" class="btn projects-btn">all projects</a>
       </div>
 
     </section>
@@ -299,15 +241,13 @@
 
 
 
-
-
     <!-- skills -->
 
     <section class="section skills">
 
-      <div class="section-title services-title">
+      <div class="section-title skills-title">
         <h2>skills</h2>
-        <div class="underline"></div>
+        <div class="underline skills-underline"></div>
       </div>
 
       <div class="section-center skills-center">
@@ -376,11 +316,12 @@
 
     <!-- blog -->
 
-    <section class="section blog">
+    <section class="section blog" id="blog">
 
-      <div class="section-title timeline-title">
-        <h2>blog</h2>
-        <div class="underline"></div>
+      <div class="section-title blog-title">
+        <h2>my articles</h2>
+				<div class="underline"></div>
+				<p class="title-brief">I love to write. I do freelance content writing whenever I'm in mood. I generally write about day to day issues of our society. Here are a few of my best articles.  </p>
       </div>
 
       <div class="section-center blog-center">
@@ -388,7 +329,7 @@
         <article class="blog-card">
 
             <div class="card-side card-front">
-                <img src="./images/animals.jpg">
+                <img src="./images/blog/animals.png">
               <div class="card-info">
                 <h4>animal abuse</h4>
                 <p>Animal abuse is not mere indications of a minor personality flaw, they are symptoms of a mental disturbance.</p>
@@ -408,9 +349,9 @@
         <article class="blog-card">
         
           <div class="card-side card-front">
-            <img src="./images/depression.jpg">
+            <img src="./images/blog/depression.jpg">
             <div class="card-info">
-              <h4>depression amongst teens</h4>
+              <h4>depression</h4>
               <p>Depression may be described as feelings of sadness, loss, or anger that interfere
               with a person’s everyday activities.</p>
               <div class="card-footer">
@@ -429,9 +370,9 @@
         <article class="blog-card">
         
           <div class="card-side card-front">
-            <img src="./images/education.jpg">
+            <img src="./images/blog/education.jpg">
             <div class="card-info">
-              <h4>modern education system</h4>
+              <h4>education system</h4>
               <p>The need to change our current education system, the way we define educating people needs an urgent revamp.</p>
               <div class="card-footer">
                 <img src="./images/favicon.ico">
@@ -449,7 +390,7 @@
         <article class="blog-card">
         
           <div class="card-side card-front">
-            <img src="./images/social-media.jpg">
+            <img src="./images/blog/social-media.jpg">
             <div class="card-info">
               <h4>social media addiction</h4>
               <p>Checking and scrolling through social media has become an increasingly popular activity over the last decade.</p>
@@ -468,10 +409,74 @@
 
 
       </div>
+      
+      <div class="new-page-link">
+        <a href="blog.html" class="btn blog-btn">blog page</a>
+      </div>
+			
     </section>
 
     <!--end of  blog -->
 
+
+
+
+
+    <!-- sketches -->
+    <section class="section sketches" id="sketches">
+    
+      <div class="section-title sketches-title">
+        <h2>sketches</h2>
+        <div class="underline"></div>
+        <p class="title-brief">I love sketching. I make sketches whenever I get free time. It relaxes me. I love drawing animated characters and superhero drawings. Here are a few of my sketches. </p>
+      </div>
+    
+      <div class="section-center sketches-center owl-carousel owl-theme">
+
+        <!-- single sketch -->
+        <article class="sketch">
+          <img src="./images/sketches/sketch-1.jpg" alt="sketch" class="sketch-image">
+        </article>
+        <!-- end of single sketch -->
+
+        <!-- single sketch -->
+        <article class="sketch">
+          <img src="./images/sketches/sketch-2.jpg" alt="sketch" class="sketch-image">
+        </article>
+        <!-- end of single sketch -->
+
+        <!-- single sketch -->
+        <article class="sketch">
+          <img src="./images/sketches/sketch-3.jpg" alt="sketch" class="sketch-image">
+        </article>
+        <!-- end of single sketch -->
+
+        <!-- single sketch -->
+        <article class="sketch">
+          <img src="./images/sketches/sketch-4.jpg" alt="sketch" class="sketch-image">
+        </article>
+        <!-- end of single sketch -->
+
+        <!-- single sketch -->
+        <article class="sketch">
+          <img src="./images/sketches/sketch-5.jpg" alt="sketch" class="sketch-image">
+        </article>
+        <!-- end of single sketch -->
+
+        <!-- single sketch -->
+        <article class="sketch">
+          <img src="./images/sketches/sketch-6.jpg" alt="sketch" class="sketch-image">
+        </article>
+        <!-- end of single sketch -->
+
+      </div>
+      
+      <div class="new-page-link">
+        <a href="sketches.html" class="btn sketches-btn">view all</a>
+      </div>
+      
+      </section>
+    <!-- end of sketches -->
 
 
 
@@ -536,7 +541,7 @@
 
     <!-- connect -->
         
-        <section class="connect">
+        <section class="connect" id="contact">
         
           <video loop autoplay muted poster="./images/project-3.jpeg" class="video-container">
             <source src="./videos/connect.mp4" type="video/mp4">
@@ -550,7 +555,7 @@
             </div>
             <p>If you want to contact me, click on the contact link below. I'm also active on some socials, the link to which
               can be found at the end of the page in the footer section.</p>
-            <a href="contact.html" class="btn">contact me</a>
+            <a href="mailto:48durgesh.kumar@gmail.com" class="btn">contact me</a>
           </div>
         
         </section>
@@ -560,22 +565,19 @@
 
 
 
-
     <!-- footer -->
 
     <footer class="footer">
 
-      <div class="footer-icons">
+      <div>
 
-        <ul class="sidebar-icons">
-          <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="sidebar-icon footer-icon" target="_blank"><i
+        <ul class="hero-icons footer-icons">
+          <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="hero-icon footer-icon" target="_blank"><i
                 class="fab fa-linkedin"></i></a></li>
-          <li><a href="https://twitter.com/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.instagram.com/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i
+          <li><a href="https://twitter.com/yodkwtf" class="hero-icon footer-icon" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/yodkwtf" class="hero-icon footer-icon" target="_blank"><i
                 class="fab fa-instagram"></i></a></li>
-          <!-- <li><a href="https://www.reddit.com/user/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i class="fab fa-reddit"></i></a>
-          </li> -->
-          <li><a href="https://github.com/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://github.com/yodkwtf" class="hero-icon footer-icon" target="_blank"><i class="fab fa-github"></i></a></li>
         </ul>
 
       </div>
@@ -587,6 +589,14 @@
 
     <!-- end of footer -->
 
+
+    <!-- Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Owl Carousel #sketches -->
+    <script src="./owl/owl.carousel.min.js"></script>
+
+    <!-- Javascript -->
     <script src="./js/app.js"></script>
   </body>
 </html>

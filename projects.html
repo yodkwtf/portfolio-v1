@@ -5,120 +5,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Deekayy || Projects</title>
-  <!-- font-awesome -->
-  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
   <!-- css -->
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link id="theme" rel="stylesheet" type="text/css" href="./css/dark-theme.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="./fontawesome-icons/css/all.min.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto&display=swap" rel="stylesheet">
   <!-- favicon -->
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
-<!-- navbar -->
 
-<nav class="nav" id="nav">
+  <header class="single-page">
 
-  <div class="nav-center">
-
-    <div class="nav-header">
-
-      <!-- MY LOGO -->
-
-      <!-- <a href="index.html">
-                  <div class="my-logo" style="display: grid; grid-template-columns: auto auto; gap: 0 8px; place-items: center; background: #B8D4D8; max-width: 12rem;
-                border-radius: 8px;
-                border: 2px solid #102a42;padding: 0.4rem 0.8rem;">
-                
-                  <img src="./images/favicon.ico" class="my-logo-icon"
-                    style="width: 2rem; height: 2rem; border-radius: 50%;object-fit: cover; justify-self: end;">
-                
-                  <h3 class="my-logo-text" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; justify-self: start; align-self: center;
-                  margin-bottom: 0; color:#102a42;font-size: 1.5rem; ">dee<span id="my-logo-special-text"
-                      style="color: #16697a; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">kayy</span></h3>
-                
-                  </div>
-                </a> -->
-
-      <!-- DOWNLOADED LOGO -->
-
-      <a href="index.html"><img src="./images/nav-logo.PNG" class="nav-logo"></a>
-
-      <button class="nav-btn" id="nav-btn">
-        <i class="fas fa-bars"></i>
-      </button>
+  <!-- single page nav -->
+  <nav class="page-nav">
+  
+    <div class="page-nav-header">
+      <!-- nav logo -->
+      <img src="./images/logo.png" class="nav-logo">
+      <!-- back btn -->
+      <a href="index.html" class="go-back-btn btn"><span class="go-back-text">Go back</span> <i class="fas fa-home"></i></a>
     </div>
-
-    <ul class="nav-links">
-      <li><a href="index.html" class="nav-link">home</a></li>
-      <li><a href="about.html" class="nav-link">about</a></li>
-      <li><a href="projects.html" class="nav-link">projects</a></li>
-      <li><a href="contact.html" class="nav-link">contact</a></li>
-    </ul>
-
-  </div>
-</nav>
-
-<!-- end of navbar -->
-
-
-
-  <!-- sidebar -->
-
-  <aside class="sidebar" id="sidebar">
-
-    <div>
-
-      <button class="close-btn" id="close-btn">
-        <i class="fas fa-times"></i>
-      </button>
-
-      <ul class="sidebar-links">
-        <li><a href="index.html" class="sidebar-link">home</a></li>
-        <li><a href="about.html" class="sidebar-link">about</a></li>
-        <li><a href="projects.html" class="sidebar-link">projects</a></li>
-        <li><a href="contact.html" class="sidebar-link">contact</a></li>
-      </ul>
-
-      <ul class="sidebar-icons">
-        <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="sidebar-icon" target="_blank"><i
-              class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/yodkwtf" class="sidebar-icon" target="_blank"><i
-              class="fab fa-twitter"></i></a></li>
-        <li><a href="https://www.instagram.com/yodkwtf" class="sidebar-icon" target="_blank"><i
-              class="fab fa-instagram"></i></a></li>
-        <!-- <li><a href="https://www.reddit.com/user/yodkwtf" class="sidebar-icon" target="_blank"><i
-              class="fab fa-reddit"></i></a>
-        </li> -->
-        <li><a href="https://github.com/yodkwtf" class="sidebar-icon" target="_blank"><i class="fab fa-github"></i></a>
-        </li>
-      </ul>
-
-    </div>
-
-  </aside>
-
-  <!-- end of sidebar -->
+  
+  </nav>
+  <!-- end of single nav -->
 
 
   <!-- 
-    ######################
-    ######################
-    ######################
+    ##############################################
+    ##############################################
+
+    PAGE CONTENT
+
+    ##############################################
+    ##############################################
   -->
 
-  <header class="page-header projects-page-header">
-    <div class="section-title page-title projects-page-title">
-      <h1> my projects</h1>
-      <div class="underline"></div>
-      <h4>Here are all the projects that I've created</h4>
-    </div>
-  </header>
+
+	
+	<section class="section page-section">
+
+		<div class="section-title page-title">
+			<h2>my projects</h2>
+			<div class="underline page-underline"></div>
+		</div>
 
 
-  <section class="section projects-page">
-
-    <div class="section-center projects-page-center">
+		<div class="section-center projects-page-center">
       
 
       <!-- PROJECT  1 -->
@@ -126,7 +62,7 @@
       <article class="single-project">
 
         <div class="project-container">
-          <img src="./images/teapot-cafe.PNG" class="project-page-image">
+          <img src="./images/projects/teapot-cafe.PNG" class="project-page-image">
           <a href="https://teapotcafe.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
@@ -150,7 +86,7 @@
       <article class="single-project">
 
       <div class="project-container">
-        <img src="./images/backroads-travels.PNG" class="project-page-image">
+        <img src="./images/projects/backroads-travels.PNG" class="project-page-image">
         <a href="https://backroadstravels.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
       </div>
       <div class="project-details">
@@ -174,7 +110,7 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/grid-mini-projects.PNG" class="project-page-image">
+          <img src="./images/projects/grid-mini-projects.PNG" class="project-page-image">
           <a href="https://gridprojects.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
@@ -198,7 +134,7 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/basic-fortfolio.PNG" class="project-page-image">
+          <img src="./images/projects/basic-fortfolio.PNG" class="project-page-image">
           <a href="https://basicportfolio.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
@@ -222,7 +158,7 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/titans-digital.PNG" class="project-page-image">
+          <img src="./images/projects/titans-digital.PNG" class="project-page-image">
           <a href="https://titansdigital.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
@@ -246,7 +182,7 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/coding-fr.PNG" class="project-page-image">
+          <img src="./images/projects/coding-fr.PNG" class="project-page-image">
           <a href="https://codingfr.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
@@ -270,7 +206,7 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/young-at-art.PNG" class="project-page-image">
+          <img src="./images/projects/young-at-art.PNG" class="project-page-image">
           <a href="https://youngatart.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
@@ -295,12 +231,12 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/saints-of-shows.PNG" class="project-page-image">
+          <img src="./images/projects/saints-of-shows.PNG" class="project-page-image">
           <a href="https://saintsofshows.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
           <h4>Saints of Shows</h4>
-          <p>An online show agency that brings you the latest trending and top rated shows with different genres and filters. The site also provides you with HD wallpapers and details about the plans of some of the top streaming services. 
+          <p>An online show agency that brings you the latest trending and top rated shows with different genres and filters. The site also provides you with HD wallpapers and details about the plans of some of the top streaming services. It also includes a testimonials section.
           </p>
           <div class="project-footer">
             <p class="project-footer-date">july 4, 2020</p>
@@ -320,7 +256,7 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/my-initial-portfolio.PNG" class="project-page-image">
+          <img src="./images/projects/my-initial-portfolio.PNG" class="project-page-image">
           <a href="https://myinitialportfolio.netlify.app/" class="project-icon" target="_blank"><i class="fas fa-eye"></i></a>
         </div>
         <div class="project-details">
@@ -345,7 +281,7 @@
       <article class="single-project">
       
         <div class="project-container">
-          <img src="./images/musify-x.PNG" class="project-page-image">
+          <img src="./images/projects/musify-x.PNG" class="project-page-image">
           <a href="https://musify-x.netlify.app/" class="project-icon" target="_blank"><i
               class="fas fa-eye"></i></a>
         </div>
@@ -367,48 +303,59 @@
 
     </div>
 
-  </section>
+	</section>
 
 
 
   <!-- 
-    ######################
-    ######################
-    ######################
-  -->
+      ##############################################
+      ##############################################
+  
+      END OF PAGE CONTENT
+  
+      ##############################################
+      ##############################################
+    -->
+
+  </header>
 
 
 
-      <!-- footer -->
-      
-      <footer class="footer">
-      
-        <div class="footer-icons">
-      
-          <ul class="sidebar-icons">
-            <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="sidebar-icon footer-icon"
-                target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://twitter.com/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i
-                  class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i
-                  class="fab fa-instagram"></i></a></li>
-            <!-- <li><a href="https://www.reddit.com/user/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i
-                  class="fab fa-reddit"></i></a>
-            </li> -->
-            <li><a href="https://github.com/yodkwtf" class="sidebar-icon footer-icon" target="_blank"><i
-                  class="fab fa-github"></i></a></li>
-          </ul>
-      
-        </div>
-      
-        <div class="footer-info">
-          <p>&copy; <span id="date"></span> deekayy. all rights reserved</p>
-        </div>
-      </footer>
-      
-      <!-- end of footer -->
 
+
+  <!-- footer -->
+  
+  <footer class="footer">
+  
+    <div>
+  
+      <ul class="hero-icons footer-icons">
+        <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="hero-icon footer-icon"
+            target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://twitter.com/yodkwtf" class="hero-icon footer-icon" target="_blank"><i
+              class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/yodkwtf" class="hero-icon footer-icon" target="_blank"><i
+              class="fab fa-instagram"></i></a></li>
+        <li><a href="https://github.com/yodkwtf" class="hero-icon footer-icon" target="_blank"><i
+              class="fab fa-github"></i></a></li>
+      </ul>
+  
+    </div>
+  
+    <div class="footer-info">
+      <p>&copy; <span id="date"></span> deekayy. all rights reserved</p>
+    </div>
+  </footer>
+  
+  <!-- end of footer -->
+
+
+  <!-- Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <!-- Javascript -->
   <script src="./js/app.js"></script>
-</body>
 
+</body>
+  
 </html>
