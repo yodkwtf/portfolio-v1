@@ -904,7 +904,7 @@ Sketches
   border-radius: var(--radius);
 }
 .sketch-image{
-  height: 35rem;
+  height: 30rem;
   -o-object-fit: cover;
      object-fit: cover;
   transition: var(--long-transition);

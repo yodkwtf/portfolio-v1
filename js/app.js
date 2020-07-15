@@ -93,7 +93,7 @@ $(document).ready(function () {
   $('.sketches-center').owlCarousel({
     loop: true,
 		margin: 50,
-		autoplay:true,
+		// autoplay:true,
     nav: true,
     slideBy: 1,
     // autoplayTimeout: 3000,
