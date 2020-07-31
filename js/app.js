@@ -89,6 +89,27 @@ $(document).ready(function () {
 
 
 
+  // isotopes
+  var $grid = $('.project-images-container').isotope({
+    // options
+    layoutMode: 'fitRows'
+  });
+  // filter items on button click
+  $('.filter-button-group').on('click', 'button', function () {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({
+      filter: filterValue
+    });
+
+  });
+
+  // layout Isotope after each image loads
+  $grid.imagesLoaded().progress(function () {
+    $grid.isotope('layout');
+  });
+
+
+
   // owl carousel for sketches
   $('.sketches-center').owlCarousel({
     loop: true,
