@@ -1327,6 +1327,7 @@ PROJECTS PAGE
   transition: var(--transition);
   text-align: center;
   cursor: pointer;
+  border-style: solid;
 }
 
 .button-group button:hover {
@@ -1401,7 +1402,9 @@ PROJECTS PAGE
 }
 
 .project-details{
-	padding: 2.5rem 1.5rem;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 .project-details h4{
   text-transform: uppercase;

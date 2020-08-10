@@ -1330,6 +1330,7 @@ PROJECTS PAGE
   transition: var(--transition);
   text-align: center;
   cursor: pointer;
+  border-style: solid;
 }
 
 .button-group button:hover {
